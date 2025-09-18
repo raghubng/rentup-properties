@@ -49,11 +49,11 @@ function Navbar() {
           </div>
           </header>
            <Routes>
-            <Route path='/rentup-properties/' element={<Home/>}/>
-             <Route path='/rentup-properties/About' element={<About/>}/>
-              <Route path='/rentup-properties/Service' element={<Service/>}/>
-               <Route path='/rentup-properties/Blog' element={<Blog/>}/>
-             <Route path='/rentup-properties/Contact' element={<Contact/>}/>
+            <Route path='/' element={<Home/>}/>
+             <Route path='/About' element={<About/>}/>
+              <Route path='/Service' element={<Service/>}/>
+               <Route path='/Blog' element={<Blog/>}/>
+             <Route path='/Contact' element={<Contact/>}/>
 
 
           </Routes>

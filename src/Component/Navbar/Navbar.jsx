@@ -30,11 +30,11 @@ function Navbar() {
             <div className='menu-icon'></div>
         </div>
         <ul className={isMenuOpen ? 'navbar-links active' : 'navbar-links'}>
-          <li><NavLink to='/' onClick={toggleMenu}>Home</NavLink></li>
-           <li><NavLink to='/About' onClick={toggleMenu}>About</NavLink></li>
-            <li><NavLink to='/Service' onClick={toggleMenu}>Service</NavLink></li>
-             <li><NavLink to='/Blog' onClick={toggleMenu}>Blog</NavLink></li>
-             <li><NavLink to='/Contact' onClick={toggleMenu}>Contact</NavLink></li>
+          <li><NavLink to='/rentup-properties/' onClick={toggleMenu}>Home</NavLink></li>
+           <li><NavLink to='/rentup-properties/About' onClick={toggleMenu}>About</NavLink></li>
+            <li><NavLink to='/rentup-properties/Service' onClick={toggleMenu}>Service</NavLink></li>
+             <li><NavLink to='/rentup-properties/Blog' onClick={toggleMenu}>Blog</NavLink></li>
+             <li><NavLink to='/rentup-properties//Contact' onClick={toggleMenu}>Contact</NavLink></li>
           
         </ul>
         </div>

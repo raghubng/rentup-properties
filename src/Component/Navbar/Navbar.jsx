@@ -31,7 +31,7 @@ function Navbar() {
         </div>
         <ul className={isMenuOpen ? 'navbar-links active' : 'navbar-links'}>
           <li><NavLink to='/' onClick={toggleMenu}>Home</NavLink></li>
-           <li><NavLink to='About' onClick={toggleMenu}>About</NavLink></li>
+           <li><NavLink to='/About' onClick={toggleMenu}>About</NavLink></li>
             <li><NavLink to='/Service' onClick={toggleMenu}>Service</NavLink></li>
              <li><NavLink to='/Blog' onClick={toggleMenu}>Blog</NavLink></li>
              <li><NavLink to='/Contact' onClick={toggleMenu}>Contact</NavLink></li>
@@ -49,11 +49,11 @@ function Navbar() {
           </div>
           </header>
            <Routes>
-            <Route path='/' element={<Home/>}/>
-             <Route path='/About' element={<About/>}/>
-              <Route path='/Service' element={<Service/>}/>
-               <Route path='/Blog' element={<Blog/>}/>
-             <Route path='/Contact' element={<Contact/>}/>
+            <Route path='/rentup-properties/' element={<Home/>}/>
+             <Route path='/rentup-properties/About' element={<About/>}/>
+              <Route path='/rentup-properties/Service' element={<Service/>}/>
+               <Route path='/rentup-properties/Blog' element={<Blog/>}/>
+             <Route path='/rentup-properties/Contact' element={<Contact/>}/>
 
 
           </Routes>

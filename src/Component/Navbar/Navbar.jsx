@@ -20,8 +20,8 @@ function Navbar() {
         
         
           <div className='logo'>
-         <img src='images/logo.png' alt='' />
-
+        
+      123
           </div>
          <div className='nav'>
         <div className='menu' onClick={toggleMenu}>

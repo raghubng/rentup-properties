@@ -20,7 +20,7 @@ function Navbar() {
         
         
           <div className='logo'>
-         <img src='../images/logo.png' alt='' />
+         <img src='images/logo.png' alt='' />
 
           </div>
          <div className='nav'>
